@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+  }
+
+div.Beef p.p{
+    background-color: rgb(127, 109, 143);
+}
+div.Chicken p.p{
+    background-color: rgb(163, 207, 145);
+}
+div.sushi p.p{
+    background-color: rgb(199, 136, 170);
+}
+.header{
+    /* display: block;  */
+    margin-right: 10px;
+    margin-left: 10px;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    text-align: center;
+}
+.p{
+    font-size: 1.202rem;
+    line-height: 1.2;
+    font-family: cursive;
+    margin: -3px;
+    padding-right: 20px;
+    padding-left: 20px;
+    float: right;
+    border: black 3px solid;
+}
+.o{
+    
+    font-family: serif;
+    clear: right;
+    margin: 10px;
+    padding-top: 10px;
+}
+@media only screen and (min-width: 1000px){
+    .header{
+        display: flex; 
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    div.sushi,div.Beef,div.Chicken{
+        border: 3px solid black;  
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: rgba(141, 141, 141, 0.658);
+        color: white;
+        margin-top: 30px;
+        /* width: 31%; */
+}
+}
+
+
+@media only screen and (min-width: 701px) and (max-width: 1001px)
+{
+    div.sushi,div.Beef,div.Chicken{
+        float: left;
+    
+    }
+      div.sushi{
+        border: 3px solid black;  
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: rgba(141, 141, 141, 0.658);
+        color: white;
+        margin-top: 30px;
+        clear: left;
+        width: 100%;
+    
+    }
+    div.Chicken{
+        border: 3px solid black;   
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: rgba(141, 141, 141, 0.658);
+        color: white;
+        margin-top: 30px;
+        width: 48%;
+        box-sizing: border-box;
+    
+    }
+    div.Beef{
+        position: absolute;
+        right: 0px;
+        border: 3px solid black; 
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: rgba(141, 141, 141, 0.658);
+        color: white;
+        margin-top: 30px;
+        width: 48%;
+        box-sizing: border-box;
+    
+    
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 700px) {
+    
+    .header{
+        display: block; 
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    div.sushi,div.Beef,div.Chicken{
+        border: 3px solid black;  
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: rgba(141, 141, 141, 0.658);
+        color: white;
+        margin-top: 30px;
+        width: 100%;
+    
+    }
+    
+    
+
+
+}
